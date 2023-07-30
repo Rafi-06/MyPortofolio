@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Poppins',Sans-Serif;
+    background-color: #000;
+}
+
+.jumbotron {
+    background-image: url('Jumbotron1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 790px;
+    color: #fff;
+    font-family: 'Poppins', Sans-Serif;
+    text-align: center;
+    padding-top: 200px;
+}
+.container1 {
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.btn {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.btn:hover {
+    background-color: transparent;
+    
+}
+
+.btn:active {
+    background-color: transparent;
+}
+
